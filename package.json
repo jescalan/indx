@@ -1,0 +1,19 @@
+{
+  "name": "indx",
+  "version": "0.0.1",
+  "author": "Jeff Escalante <hello@jenius.me>",
+  "description": "require_tree for node",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jenius/indx.git"
+  },
+  "dependencies": {
+    "coffee-script": "1.6.x",
+    "colors": "0.6.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  }
+}
