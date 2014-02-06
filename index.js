@@ -1,4 +1,4 @@
-require('coffee-script');
+require('coffee-script/register');
 
 var fs = require('fs'),
     colors = require('colors'),
