@@ -4,6 +4,7 @@ Indx
 [![npm](https://badge.fury.io/js/indx.png)](http://badge.fury.io/js/indx)
 [![tests](https://travis-ci.org/jenius/indx.png?branch=master)](https://travis-ci.org/jenius/indx)
 [![dependencies](https://david-dm.org/jenius/indx.png?theme=shields.io)](https://david-dm.org/jenius/indx)
+[![coverage](https://coveralls.io/repos/jenius/indx/badge.png)](https://coveralls.io/r/jenius/indx)
 
 Require a folder of files or other folders, instead of doing them one at a time.
 
