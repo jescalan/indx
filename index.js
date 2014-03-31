@@ -38,7 +38,7 @@ function isDir(dir, f){ return fs.statSync(path.join(dir,f)).isDirectory() }
 
 function extensions_regex(){
   var str = '';
-  valid_extensions.forEach(function(ext){ str += '.' + ext + '|'; });
+  valid_extensions.forEach(function(ext){ str += '.' + ext + '$' + '|'; });
   return new RegExp(str.slice(0,-1))
 }
 
