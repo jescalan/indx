@@ -15,7 +15,7 @@ It's a very small script, but it's something I found myself writing and re-writi
 
 ### Installation
 
-`npm install indx --save`
+`npm install indx`
 
 ### Usage
 
@@ -25,7 +25,13 @@ In the folder you want to require, put an `index.js` file at the root. Inside th
 module.exports = require('indx')(__dirname);
 ```
 
-...that's it.
+This you can require that folder and each of the files will be present. Alternately, just pass `indx` the path of a directory you want to require:
+
+```js
+var adapters = require('indx')('./adapters')
+```
+
+The path you pass will be passed through [path.resolve](http://nodejs.org/api/path.html#path_path_resolve_from_to), so no need to compute an absolute path if you don't need to. The example above will work fine without having to run any additional `path` methods on it as long as the relative path there is correct.
 
 Indx supports javascript and coffeescript. If you have folders inside your folder, make sure each of those folders has an `index.js` or `index.coffee` file in it, or it won't be required. If you have files in your folder that are not `.js` or `.coffee`, they will not be required. If there are other languages I'm not aware of you'd like to add support for, feel free to submit a pull request - it's easy to extend the supported extensions.
 
