@@ -30,9 +30,9 @@ module.exports = function(dir){
   return res;
 }
 
-// 
+//
 // @api private
-// 
+//
 
 function isDir(dir, f){ return fs.statSync(path.join(dir,f)).isDirectory() }
 
