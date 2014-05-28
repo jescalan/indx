@@ -1,10 +1,7 @@
 Indx
 ----
 
-[![npm](https://badge.fury.io/js/indx.png)](http://badge.fury.io/js/indx)
-[![tests](https://travis-ci.org/jenius/indx.png?branch=master)](https://travis-ci.org/jenius/indx)
-[![dependencies](https://david-dm.org/jenius/indx.png?theme=shields.io)](https://david-dm.org/jenius/indx)
-[![coverage](https://coveralls.io/repos/jenius/indx/badge.png)](https://coveralls.io/r/jenius/indx)
+[![npm](http://img.shields.io/npm/v/indx.svg?style=flat)](https://badge.fury.io/js/indx) [![tests](http://img.shields.io/travis/jenius/indx/master.svg?style=flat)](https://travis-ci.org/jenius/indx) [![coverage](http://img.shields.io/coveralls/jenius/indx.svg?style=flat)](https://coveralls.io/r/jenius/indx) [![dependencies](http://img.shields.io/gemnasium/jenius/indx.svg?style=flat)](https://gemnasium.com/jenius/indx)
 
 Require a folder of files or other folders, instead of doing them one at a time.
 
