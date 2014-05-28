@@ -21,6 +21,7 @@
   },
   "scripts": {
     "test": "mocha",
+    "coverage": "istanbul cover _mocha --report html -- -R spec && open coverage/index.html",
     "coveralls": "istanbul cover _mocha --report lcovonly -- -R spec && cat ./coverage/lcov.info | coveralls && rm -rf ./coverage"
   }
 }

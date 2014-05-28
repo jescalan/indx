@@ -12,3 +12,4 @@ describe 'errors', ->
   before -> @res = require './errors'
   it 'should not include non-js files', -> should.not.exist(@res.foo)
   it 'should not include folders with no index', -> should.not.exist(@res.hello)
+  it 'should error out on invalid js syntax', -> should.not.exist(@res.fail)
