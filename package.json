@@ -8,16 +8,13 @@
     "type": "git",
     "url": "https://github.com/jenius/indx.git"
   },
-  "dependencies": {
-    "coffee-script": "1.7.x",
-    "colors": "0.6.x"
-  },
   "devDependencies": {
-    "mocha": "*",
-    "should": "*",
+    "coffee-script": "1.7.x",
     "coveralls": "2.x",
+    "istanbul": "0.3.x",
+    "mocha": "1.x",
     "mocha-lcov-reporter": "0.0.1",
-    "istanbul": "0.2.x"
+    "should": "4.x"
   },
   "scripts": {
     "test": "mocha",

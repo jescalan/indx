@@ -1,7 +1,4 @@
-require('coffee-script/register');
-
 var fs = require('fs'),
-    colors = require('colors'),
     path = require('path');
 
 var valid_extensions = ['js', 'coffee'];
@@ -23,8 +20,8 @@ module.exports = function(dir){
     try {
       res[obj] = require(path.join(dir, obj));
     } catch (err) {
-      console.error('could not require '.red.bold + obj.red.bold);
-      console.error(err);
+      err.message = "Could note require " + path.join(dir, obj) + ": " + err.message
+      throw err
     }
   });
 
